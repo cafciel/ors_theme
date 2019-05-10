@@ -923,7 +923,7 @@ fieldset{
 }
 
 #top-menu a.home, a.home:hover {
-  background-image: url(../../../images/ors_rm_thumb.png?v=2);
+  background-image: url(../images/ors_rm_thumb.png?v=2);
   background-size: 100%;
   background-repeat: no-repeat;
   margin-left: -80px;
