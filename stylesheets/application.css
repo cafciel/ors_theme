@@ -915,7 +915,7 @@ fieldset{
  *-------------------------*/
 
 #top-menu {
-  background-color: #21374C;
+  background-color: #392768; /* Hintergrundfarbe des oberen Menüs */
   top: 4px;
   height: 66px;
   left: 80px;
@@ -923,7 +923,8 @@ fieldset{
 }
 
 #top-menu a.home, a.home:hover {
-  background-image: url(../../../images/ors_rm_thumb.png);
+  background-image: url(../../../images/ors_rm_thumb.png?v=2);
+  background-size: 100%;
   background-repeat: no-repeat;
   margin-left: -80px;
   padding-left: 66px;
@@ -931,10 +932,21 @@ fieldset{
   text-indent: -9999px;
 }
 
+#top-menu > ul > li a.selected,
 #top-menu > ul > li a:hover,
 #account > ul > li a:hover {
   margin-top: 10px;
   padding-top: 10px;
+  border-radius: 8px;
+  height: 40px;
+}
+
+a.selected {
+  background-color: #ef7f1a; /* Hintergrundfarbe des aktiv ausgewählten Menüelements */
+}
+
+#top-menu li a:hover {
+  background-color: #4D96DA; /* Hintergrundfarbe des Menüelements auf das man zeigt */
 }
 
 #top-menu > ul > li a.home:hover {
@@ -960,8 +972,18 @@ fieldset{
 }
 
 #header {
-    margin-top: 73px;
+  margin-top: 73px;
+  z-index: 9999;
+  overflow: visible;
+}
+#projects-index {
+  column-count: 1;
 }
 #main {
 /*    margin-top: 66px; /**/
+}
+#quick-search,
+#quick-search #q {
+  z-index: 9999;
+  overflow: visible;
 }
