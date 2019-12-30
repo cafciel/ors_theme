@@ -136,7 +136,7 @@ div.issue a.rm-icon:before {
 
 #main-menu li a.selected
   {
-  color: #0E3554;
+  color: #392768;
   text-decoration: none;
   border-radius: 12px 12px 0 0;
   }
@@ -177,7 +177,7 @@ a.no_line, a.icon, tr.issue td.subject a.icon, tr.issue td.id a.icon, a.issue.ic
   top: 0;
   height: 28px;
   z-index: 10001;
-  background-color: #21374C;
+  background-color: #392768;
   -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
   box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
@@ -917,7 +917,7 @@ fieldset{
 #top-menu {
   background-color: #392768; /* Hintergrundfarbe des oberen Menüs */
   top: 4px;
-  height: 66px;
+  height: 66px; 
   left: 80px;
   border-radius: 12px;
 }
@@ -951,7 +951,7 @@ a.selected {
 
 #top-menu > ul > li a.home:hover {
   margin-top: 0;
-  height: 64px;
+  height: 64px; 
   width: 62px;
   border-radius: 0;
 }
